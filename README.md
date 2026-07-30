@@ -1,241 +1,195 @@
-<!-- HERO BANNER: replace with a large photo of the FANUC robot -->
+<!-- HERO BANNER: replace with a large photo of the robot -->
 <p align="center">
   <img src="Images/hero-robot.png" alt="FANUC Industrial Robot Programming and Commissioning" width="100%">
 </p>
 
-<h1 align="center">FANUC Industrial Robot Programming & Commissioning</h1> 
+<h1 align="center">FANUC Industrial Robot Programming & Commissioning</h1>
 
 <p align="center">
-  Programming, configuration, and commissioning of an industrial FANUC robot using standard teach pendant workflows: coordinate systems, motion programming, position teaching, mastering, and alarm recovery.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FANUC%20Robotics-FFD200?style=for-the-badge&logoColor=black">
-  <img src="https://img.shields.io/badge/Industrial%20Robotics-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Automation%20Engineering-004B87?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Robot%20Programming-2E8B57?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Teach%20Pendant-455A64?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Manufacturing%20Automation-6A1B9A?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Industrial%20Automation-0072C6?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Robot%20Commissioning-B71C1C?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Motion%20Programming-00838F?style=for-the-badge">
+  Programming, Commissioning, Motion Planning, and Industrial Robot Configuration using a FANUC Industrial Robot.
 </p>
 
 ---
 
 ## 📌 Overview
 
-FANUC is one of the largest industrial robot builders in the world, and their arms are everywhere in manufacturing: welding, material handling, assembly, machine tending, and palletizing. Most automotive plants run them by the hundreds.
+This project documents the programming and commissioning of an industrial FANUC robot using standard manufacturing workflows. The focus was on robot configuration, teach pendant programming, motion planning, coordinate systems, and repeatable robot movement. Although no production end-of-arm tooling was installed, the robot was programmed using the same engineering practices used during industrial automation commissioning.
 
-Commissioning is the work that happens before a robot ever touches production. It covers powering up the controller, configuring the robot, setting up coordinate systems, teaching positions, and proving out motion. Get this part wrong and the robot either faults out or moves somewhere you didn't intend.
+---
 
-Programming matters because a robot is only as good as the paths it's taught. Clean, repeatable motion is what lets a cell hold cycle time and quality shift after shift. This project walks through that programming and commissioning workflow on a FANUC arm.
+## 🎥 Demo
+
+### Complete Robot Motion Sequence
+
+<!-- 🎥 link or embed Videos/MotionSequence.mp4 -->
+[▶ MotionSequence.mp4](Videos/MotionSequence.mp4)
+
+### Robot Programming & Teach Pendant Demonstration
+
+<!-- 🎥 link or embed Videos/TeachPendantDemo.mp4 -->
+[▶ TeachPendantDemo.mp4](Videos/TeachPendantDemo.mp4)
+
+---
+
+## 🧩 Technologies
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FANUC%20Robotics-FFD200?style=for-the-badge&logoColor=black">
+  <img src="https://img.shields.io/badge/Industrial%20Robotics-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Teach%20Pendant%20Programming-455A64?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Motion%20Programming-00838F?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Automation%20Engineering-004B87?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Robot%20Commissioning-B71C1C?style=for-the-badge">
+</p>
 
 ---
 
 ## 🎯 Project Objectives
 
-- Configure an industrial FANUC robot from power-up
-- Program repeatable robot motion
-- Learn the industrial robot commissioning workflow
-- Configure tool and user coordinate systems
-- Teach and store robot positions
-- Understand industrial robot safety
-- Practice startup and fault recovery procedures
-- Build practical, hands-on robot programming skills
+- Configure an industrial FANUC robot
+- Develop repeatable robot motion programs
+- Teach robot positions
+- Configure Tool and User Frames
+- Understand industrial robot coordinate systems
+- Practice robot commissioning procedures
+- Execute safe robot motion
+- Build practical industrial robotics experience
 
 ---
 
-## ✨ Project Highlights
+## ✨ Key Features
 
-- ✔ Robot commissioning
-- ✔ Teach pendant programming
-- ✔ Joint motion
-- ✔ Linear motion
-- ✔ Tool frame configuration
-- ✔ User frame configuration
-- ✔ Position teaching
-- ✔ Motion program development
-- ✔ Robot mastering
-- ✔ Alarm recovery
-- ✔ Industrial robotics workflow
+- Industrial robot configuration
+- Teach pendant programming
+- Joint motion programming
+- Linear motion programming
+- Position teaching
+- Tool Frame configuration
+- User Frame configuration
+- Motion sequence development
+- Robot commissioning workflow
+- Industrial robotics documentation
 
 ---
 
-## 🔄 System Workflow
+## 🔄 Engineering Workflow
 
 ```mermaid
 flowchart TB
-A["🔌 Robot Controller"] --> B["⚡ Servo Power"]
-B --> C["📟 Teach Pendant"]
-C --> D["⚙️ Robot Configuration"]
-D --> E["📐 Coordinate Systems"]
-E --> F["🧭 Motion Programming"]
-F --> G["🤖 Robot Execution"]
-G --> H["✅ Commissioning Complete"]
+A["🔌 Robot Initialization"] --> B["📟 Teach Pendant Setup"]
+B --> C["📍 Position Teaching"]
+C --> D["📐 Coordinate Systems (Tool & User Frames)"]
+D --> E["🧭 Motion Programming (Joint & Linear)"]
+E --> F["🤖 Program Execution"]
+F --> G["✅ Commissioning & Validation"]
 ```
 
 ---
 
 ## 🖼️ Gallery
 
-<!-- Drop photos into /Images. Replace the placeholders below. -->
+<!-- Drop photos into /Images and replace the placeholders below. -->
 
-| ![Hero Robot](Images/robot-full.png) | ![Robot Controller](Images/controller.png) | ![Teach Pendant](Images/teach-pendant.png) |
+| ![Hero Robot](Images/robot-full.png) | ![Full Workcell](Images/workcell.png) | ![Teach Pendant](Images/teach-pendant.png) |
 |:---:|:---:|:---:|
-| **Full Robot** | **Robot Controller** | **Teach Pendant** |
-| The industrial FANUC arm. | The FANUC controller running the robot. | The programming and jogging interface. |
+| **Hero Robot** | **Full Robot Workcell** | **Teach Pendant Programming** |
+| The industrial FANUC arm. | The overall robot workcell. | Building the program on the pendant. |
 
-| ![Home Position](Images/home-position.png) | ![Joint Jogging](Images/joint-jogging.png) | ![Cartesian Jogging](Images/cartesian-jogging.png) |
+| ![Coordinate Systems](Images/coordinate-systems.png) | ![Robot Motion](Images/robot-motion.png) | ![Programming Session](Images/programming-session.png) |
 |:---:|:---:|:---:|
-| **Home Position** | **Joint Jogging** | **Cartesian Jogging** |
-| Robot at a known, ready position. | Driving one axis at a time. | Moving the tool point along X, Y, Z. |
-
-| ![Tool Frame](Images/tool-frame.png) | ![User Frame](Images/user-frame.png) | ![Position Registers](Images/position-registers.png) |
-|:---:|:---:|:---:|
-| **Tool Frame Setup** | **User Frame Setup** | **Position Registers** |
-| Control point set at the tool tip. | Coordinate system tied to the work. | Taught positions stored for reuse. |
-
-| ![Motion Program](Images/motion-program.png) | ![Executing Motion](Images/executing-motion.png) | ![Alarm Recovery](Images/alarm-recovery.png) |
-|:---:|:---:|:---:|
-| **Motion Program** | **Robot Executing Motion** | **Alarm Recovery** |
-| The taught motion routine. | The arm running the program. | Reading and clearing a fault. |
-
-| ![Robot Workspace](Images/workspace.png) | | |
-|:---:|:---:|:---:|
-| **Robot Workspace** | | |
-| The overall workcell. | | |
+| **Coordinate System Configuration** | **Robot Motion** | **Programming Session** |
+| Setting up Tool and User Frames. | The robot running the programmed sequence. | Working through the program on the pendant. |
 
 ---
 
-## 🛠️ Programming Workflow
+## 🛠️ Robot Programming Workflow
 
-### Robot Startup
+### Robot Initialization
 
-Before any programming, the controller is powered up and servo power is enabled. You clear any startup faults, confirm the robot is at a known position, and check that the teach pendant is active and the E-stop chain is healthy. Nothing moves until the robot is in a safe, known state.
+Before any programming begins, the robot is powered on, the controller is checked for faults, and the servos are enabled. The robot is then moved to a known starting position to ensure every cycle begins consistently.
 
-### Robot Jogging
+### Position Teaching
 
-Jogging is manually driving the robot from the teach pendant. Joint mode moves one axis at a time, which is how you get the arm out of an awkward pose or away from a hard stop. Cartesian mode (World or Tool) moves the tool point in straight lines along X, Y, and Z, which is how you line up to a real feature. You need both: joint mode for gross positioning, Cartesian for precise, intuitive moves.
+Each waypoint is manually taught using the teach pendant. Once the robot reaches the desired location, the position is recorded so it can be recalled accurately every time the program runs.
 
-### Teaching Positions
+### Coordinate Systems
 
-Once the arm is where you want it, that position gets recorded. FANUC stores these as position registers or as points inside the program. Because the robot returns to the same encoder counts every time, taught positions repeat to a fraction of a millimeter. That repeatability is the whole point: teach it once and the robot hits it the same way every cycle.
+Rather than programming every movement in world coordinates, Tool Frames and User Frames are configured to make programs easier to build, modify, and reuse. This mirrors the workflow used in industrial manufacturing cells.
 
 ### Motion Programming
 
-Motion instructions tell the robot how to get from point to point. Joint moves (J) let all axes move together on the fastest path, quick, but the tool path isn't a straight line. Linear moves (L) drive the tool point in a straight line at a set speed, which you use when the path matters, like approaching a part or tracing a surface. Most programs mix the two: joint through open air, linear where accuracy counts.
-
-### Tool Frames
-
-The robot is programmed relative to a tool frame, not the bare flange. The tool frame puts the control point at the actual working tip, so when the tool rotates, the robot pivots around that tip instead of the flange. No physical gripper was installed on this robot, but the tool frame was set up the same way you would before mounting real tooling. The workflow is identical to a production system.
-
-### User Frames
-
-A user frame is a coordinate system tied to the work, a fixture or a conveyor, instead of the robot base. Factories lean on them because you can teach every point relative to that frame. If the fixture moves, you re-teach the frame and all the points shift with it. That's what makes programs reusable and quick to recover after a changeover.
+The motion sequence combines Joint and Linear moves to create smooth, repeatable robot paths. Joint motion is used for efficient travel between positions, while Linear motion is used where straight-line movement is required.
 
 ### Program Execution
 
-With the positions taught and the moves programmed, the robot runs the program and follows the recorded path. You step through it slow first, then bring the speed up once the path looks clean. Good execution is smooth, no jerky transitions, and repeatable, the arm traces the same path every run.
+After all positions are taught and verified, the robot executes the complete sequence from start to finish. Each cycle follows the same programmed path, demonstrating repeatable industrial robot operation.
 
-### Mastering
+### Commissioning
 
-Mastering is how the robot knows where its axes actually are. Each joint has a reference position, and mastering aligns the encoder counts to that known zero. You need it after a battery loss, an encoder fault, or certain maintenance. Without valid mastering, taught positions mean nothing, because the robot's idea of where it is would be off.
-
-### Alarm Recovery
-
-Robots fault, and part of commissioning is handling it. You read the alarm, work out the cause (over-travel, servo fault, collision guard), clear it safely, and jog the arm back to a good position before resuming. The goal is getting back to running without making the situation worse.
+The final stage involves validating robot movement, confirming programmed positions, checking coordinate systems, and ensuring the robot completes the entire sequence without errors.
 
 ---
 
 ## 🧠 Engineering Challenges
 
-- Getting a feel for the coordinate systems and how World, Tool, and User frames relate to each other.
-- Reading robot orientation, wrist poses and near-singularity positions aren't obvious at first.
-- Making motion smooth instead of jerky by choosing the right move types and speeds.
-- Teaching paths that repeat cleanly every run.
-- Learning the commissioning order so steps don't get done out of sequence.
-- Keeping the robot operating safely throughout.
+- Learning the differences between Joint, World, Tool, and User coordinate systems.
+- Creating smooth and repeatable motion paths.
+- Understanding industrial robot commissioning procedures.
+- Safely teaching and validating robot positions.
+- Organizing motion programs for readability and future expansion.
 
 ---
 
 ## ✅ Testing & Validation
 
-The work was validated by actually running the robot through the full workflow:
-
-- Configured the robot from power-up
-- Jogged in joint and Cartesian coordinate systems
-- Taught and stored positions
-- Built and executed motion programs
-- Verified the robot repeated the same path each run
-- Tested startup and fault-recovery procedures
-- Validated the tool and user frame configuration
-
-No production deployment, PLC integration, or gripper testing was part of this project.
+- Verified robot startup and servo enable procedures.
+- Validated taught positions through repeated execution.
+- Confirmed consistent robot motion across multiple cycles.
+- Tested Joint and Linear movement.
+- Verified Tool and User Frame configuration.
+- Confirmed repeatable motion sequence execution.
 
 ---
 
 ## 📈 Results
 
-- Configured an industrial FANUC robot from startup
-- Created repeatable robot motion programs
-- Set up tool and user frames
-- Built practical, hands-on commissioning experience
-- Improved understanding of the industrial robotics workflow
-- Practiced fault diagnosis and safe robot recovery
-
----
-
-## 💡 Lessons Learned
-
-- Robot safety comes first, and knowing the E-stop and recovery flow matters as much as the programming.
-- Coordinate systems are the foundation, once the frames make sense, everything else gets easier.
-- Commissioning has an order to it, and following that order saves a lot of rework.
-- Smooth, repeatable motion comes from planning the path, not just teaching points.
-- Small habits, clean naming, sensible speeds, safe approach points, make a program easier to run and recover.
-
----
-
-## 🚀 Future Improvements
-
-- Industrial gripper (end-of-arm tooling) integration
-- PLC communication over EtherNet/IP
-- Machine vision integration
-- Conveyor tracking
-- Pick-and-place operations
-- Machine tending
-- Palletizing
-- Digital I/O integration
-- Full automatic production cycle
-- Robot cell safety devices
+- Successfully programmed and commissioned an industrial FANUC robot.
+- Developed repeatable robot motion programs.
+- Configured Tool and User Frames.
+- Practiced industrial robot startup and recovery procedures.
+- Built practical experience with industrial robotics programming and commissioning.
 
 ---
 
 ## 🧰 Skills Demonstrated
 
-![Industrial Robotics](https://img.shields.io/badge/Industrial%20Robotics-CC0000?style=flat-square)
-![Robot Programming](https://img.shields.io/badge/Robot%20Programming-2E8B57?style=flat-square)
-![Teach Pendant Programming](https://img.shields.io/badge/Teach%20Pendant%20Programming-455A64?style=flat-square)
-![Joint Motion](https://img.shields.io/badge/Joint%20Motion-1565C0?style=flat-square)
-![Linear Motion](https://img.shields.io/badge/Linear%20Motion-0072C6?style=flat-square)
-![Tool Frames](https://img.shields.io/badge/Tool%20Frames-00838F?style=flat-square)
-![User Frames](https://img.shields.io/badge/User%20Frames-00695C?style=flat-square)
-![Coordinate Systems](https://img.shields.io/badge/Coordinate%20Systems-283593?style=flat-square)
-![Position Registers](https://img.shields.io/badge/Position%20Registers-4A148C?style=flat-square)
-![Robot Commissioning](https://img.shields.io/badge/Robot%20Commissioning-B71C1C?style=flat-square)
-![Robot Mastering](https://img.shields.io/badge/Robot%20Mastering-6A1B9A?style=flat-square)
-![Robot Recovery](https://img.shields.io/badge/Robot%20Recovery-D84315?style=flat-square)
-![Industrial Troubleshooting](https://img.shields.io/badge/Industrial%20Troubleshooting-37474F?style=flat-square)
-![Automation Engineering](https://img.shields.io/badge/Automation%20Engineering-004B87?style=flat-square)
-![Manufacturing Automation](https://img.shields.io/badge/Manufacturing%20Automation-F58025?style=flat-square)
+| Robotics | Programming | Engineering |
+|----------|-------------|-------------|
+| FANUC Robot Programming | Teach Pendant Programming | Robot Commissioning |
+| Motion Programming | Joint Motion | Industrial Automation |
+| Linear Motion | Position Teaching | Troubleshooting |
+| Tool Frames | User Frames | Manufacturing Systems |
+| Coordinate Systems | Program Validation | Robotics Engineering |
+
+---
+
+## 🚀 Future Improvements
+
+- Integrate a pneumatic or electric gripper for pick-and-place applications.
+- Add PLC communication using EtherNet/IP.
+- Incorporate machine vision for object detection and alignment.
+- Develop automated conveyor tracking routines.
+- Expand the workcell into a complete material handling system.
+- Add digital I/O control for end-of-arm tooling.
+- Implement safety devices and production-ready interlocks.
 
 ---
 
 ## 👤 About Me
 
-Automation Technician and Electrical Engineering student, hands-on with industrial controls and robotics.
+Electrical Engineering Student and Automation Technician, hands-on with industrial controls and robotics.
 
-Interested in Industrial Automation, Controls Engineering, Industrial Robotics, PLC Programming, and Manufacturing Automation.
+Interested in Industrial Automation, Controls Engineering, Industrial Robotics, PLC Programming, and Manufacturing Systems.
 
 <!-- Add your links -->
 - GitHub: [github.com/your-username](https://github.com/your-username)
