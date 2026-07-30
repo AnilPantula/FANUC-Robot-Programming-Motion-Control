@@ -9,6 +9,15 @@
   Programming, Commissioning, Motion Planning, and Industrial Robot Configuration using a FANUC Industrial Robot.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/FANUC%20Robotics-FFD200?style=for-the-badge&logoColor=black">
+  <img src="https://img.shields.io/badge/Industrial%20Robotics-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Teach%20Pendant%20Programming-455A64?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Motion%20Programming-00838F?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Automation%20Engineering-004B87?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Robot%20Commissioning-B71C1C?style=for-the-badge">
+</p>
+
 ---
 
 ## 📌 Overview
@@ -28,19 +37,6 @@ This project documents the programming and commissioning of an industrial FANUC 
 
 <!-- 🎥 link or embed Videos/TeachPendantDemo.mp4 -->
 [▶ TeachPendantDemo.mp4](Videos/TeachPendantDemo.mp4)
-
----
-
-## 🧩 Technologies
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FANUC%20Robotics-FFD200?style=for-the-badge&logoColor=black">
-  <img src="https://img.shields.io/badge/Industrial%20Robotics-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Teach%20Pendant%20Programming-455A64?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Motion%20Programming-00838F?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Automation%20Engineering-004B87?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Robot%20Commissioning-B71C1C?style=for-the-badge">
-</p>
 
 ---
 
