@@ -3,7 +3,7 @@
   <img src="Images/hero-robot.png" alt="FANUC Industrial Robot Programming and Commissioning" width="100%">
 </p>
 
-<h1 align="center">FANUC Industrial Robot Programming & Commissioning</h1>
+<h1 align="center">FANUC Industrial Robot Programming & Commissioning</h1> 
 
 <p align="center">
   Programming, configuration, and commissioning of an industrial FANUC robot using standard teach pendant workflows: coordinate systems, motion programming, position teaching, mastering, and alarm recovery.
