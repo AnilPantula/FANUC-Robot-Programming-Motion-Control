@@ -29,7 +29,7 @@ This project covers the setup, programming, and commissioning of an industrial F
  
 ### Pick and Place Walkthrough
  
-<video src="PASTE_PICKPLACE_ASSET_URL" controls width="90%"></video>
+<video src="video-h264.mp4" controls width="90%"></video>
  
 The robot running the full simulated pick-and-place waypoint sequence start to finish.
  
